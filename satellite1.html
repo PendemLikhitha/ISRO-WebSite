@@ -1,0 +1,209 @@
+<html>
+<head>
+<meta name="viewport" content="width=60%,initial-scale=1.0">
+<title>Satellites</title>
+<style>
+nav{
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.center{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align:end;
+  font-weight: bold;
+}
+.center .title{
+  color:ivory;
+  font-size: 50px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color:lavender;
+  font-size: 40px;
+  font-weight: 600;
+}
+.sate
+{
+width:100%;
+height:90px;
+text-align:center;
+font-size:40px;
+background-color:black;
+color:white;
+}
+body
+{
+    color:#fff;
+background-color:black;
+}
+#pp
+{
+font-family:"Times new roman";
+font-size:36px;
+background-color:lightgrey;
+color: black;
+}
+.left img
+{
+width:200px;
+height:250px;
+float:left;
+}
+.right img
+{
+width:200px;
+height:250px;
+float:right;
+}
+#pp .hh
+{
+font-size:20px;
+margin:30px;
+padding:10px;
+background-color:cadetblue;
+text-align:center;
+}
+.content
+{
+height:100%;
+}
+.img{
+  background: url("https://images.unsplash.com/photo-1460186136353-977e9d6085a1?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.satellite-types {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .satellite-type {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .satellite-type img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .satellite-type h3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .satellite-type p {
+            line-height: 1.5;
+        }
+
+</style>
+</head>
+<body > 
+    <nav>
+        <div class="menu">
+          <div class="logo">
+            <i class="fas fa-rocket"></i>
+            <a href="#">ISRO Satellites</a>
+          </div>
+          <ul>
+            <li></li>
+            <li><big><label></label>Types of Satellites: </big>
+                  <button value="Type1" onclick=window.location.href="#s1"></button>
+                  <button value="Type2" onclick=window.location.href="#s2"></button>
+                  <button value="Type3" onclick=window.location.href="#s3"></button>
+                  <button value="Type4" onclick=window.location.href="#s4"></button>
+                </select></li>
+        </ul>
+       </div>
+      </nav>
+      <div class="img"></div>
+      <div class="center">
+        <div class="title">SATELLITES</div>
+        <div class="sub_title">An object that moves around a larger object.</div>
+      </div>
+
+<div class="sate"><h1>ISRO SATELLITES</h1></div>
+<div id="pp">What is Satellite?
+<div class="hh"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwtnKw3nhH0TxtSxFRsJmICHZF7sQzPD6G5gxqQLR4xgZ0tb0hTYF32PsK34vdkSqQ_xs&usqp=CAU" alt="About satellites"/><p>A satellite is an object that moves around a larger object. Earth is a satellite because it moves around the sun. The moon is a satellite because it moves around Earth. Earth and the moon are called “natural” satellites.
+
+But usually when someone says “satellite,” they are talking about a “man-made” satellite. Man-made satellites are machines made by people. These machines are launched into space and orbit Earth or another body in space.
+
+There are thousands of man-made satellites. Some take pictures of our planet. Some take pictures of other planets, the sun and other objects. These pictures help scientists learn about Earth, the solar system and the universe. Other satellites send TV signals and phone calls around the world.</p></div></div>
+<main class="container">
+    <h2>Types of Satellites</h2>
+
+    <div class="satellite-types">
+        <div class="satellite-type">
+            <img src="https://images.unsplash.com/photo-1526666923127-b2970f64b422?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <a name="s1"><h3>Communication Satellites</h3></a>
+            <p>Communication satellites are used to relay voice, data, and television signals between different points on Earth. They are essential for modern communication systems, such as telecommunications, broadcasting, and the Internet.</p>
+        </div>
+
+        <div class="satellite-type">
+            <img src="https://www.pixalytics.com/wp-content/uploads/2014/09/31372399_ml1.jpg">
+            <a name="s2"></a><h3>Earth Observation Satellites</h3></a>
+            <p>Earth observation satellites are used to collect data about the Earth's surface and atmosphere. This data is used for a variety of applications, including agriculture, forestry, environmental monitoring, and disaster management.</p>
+        </div>
+
+        <div class="satellite-type">
+            <img src="https://ts2.space/wp-content/uploads/2023/05/mfrack_realistic_photo_of_satellite_communications_high_resolut_1f6dd582-4dac-4613-ab9e-46958d10b0dd.jpeg" alt="Navigation Satellite">
+            <a name="s3"> <h3>Navigation Satellites</h3></a>
+            <p>Navigation satellites are used to provide positioning, navigation, and timing (PNT) services. These services are essential for a variety of applications, including GPS, aviation, and shipping.</p>
+        </div>
+<br/>
+        <div class="satellite-type">
+            <img src="https://img.freepik.com/premium-photo/satellite-orbit-hd-8k-wallpaper-stock-photographic-image_890746-43111.jpg" alt="Scientific Satellite">
+            <a name="s4"></a><h3>Scientific Satellites</h3></a>
+            <p>Scientific satellites are used to conduct research in a variety of fields, including astronomy, astrophysics, planetary science, and earth sciences.</p>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>

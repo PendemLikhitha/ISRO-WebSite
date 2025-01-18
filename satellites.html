@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISRO Satellites</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .header {
+            background-image: url("https://www.isro.gov.in/images/satellite2.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .header h1 {
+            font-size: 40px;
+            margin-top: 100px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .satellite-types {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .satellite-type {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .satellite-type img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .satellite-type h3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .satellite-type p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>ISRO Satellites</h1>
+    </header>
+
+    <main class="container">
+        <h2>Types of Satellites</h2>
+
+        <div class="satellite-types">
+            <div class="satellite-type">
+                <img src="https://www.isro.gov.in/images/satellites/communication_satellites.jpg" alt="Communication Satellite">
+                <h3>Communication Satellites</h3>
+                <p>Communication satellites are used to relay voice, data, and television signals between different points on Earth. They are essential for modern communication systems, such as telecommunications, broadcasting, and the Internet.</p>
+            </div>
+
+            <div class="satellite-type">
+                <img src="https://www.isro.gov.in/images/satellites/earth_observation_satellites.jpg" alt="Earth Observation Satellite">
+                <h3>Earth Observation Satellites</h3>
+                <p>Earth observation satellites are used to collect data about the Earth's surface and atmosphere. This data is used for a variety of applications, including agriculture, forestry, environmental monitoring, and disaster management.</p>
+            </div>
+
+            <div class="satellite-type">
+                <img src="https://www.isro.gov.in/images/satellites/navigation_satellites.jpg" alt="Navigation Satellite">
+                <h3>Navigation Satellites</h3>
+                <p>Navigation satellites are used to provide positioning, navigation, and timing (PNT) services. These services are essential for a variety of applications, including GPS, aviation, and shipping.</p>
+            </div>
+
+            <div class="satellite-type">
+                <img src="https://www.isro.gov.in/images/satellites/scientific_satellites.jpg" alt="Scientific Satellite">
+                <h3>Scientific Satellites</h3>
+                <p>Scientific satellites are used to conduct research in a variety of fields, including astronomy, astrophysics, planetary science, and earth sciences.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
